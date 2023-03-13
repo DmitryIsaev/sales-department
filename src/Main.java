@@ -5,10 +5,10 @@ public class Main {
         long max = salesManager.max();
         System.out.println("Максимальный размер продаж: " + max);
 
-        int min = salesManager.min();
+        long min = salesManager.min();
         System.out.println("Минимальный размер продаж: " + min);
 
-        int croppedAverageValue = salesManager.croppedAverageValue();
+        long croppedAverageValue = salesManager.croppedAverageValue();
         System.out.println("Среднее количество продаж: " + croppedAverageValue);
     }
 }
